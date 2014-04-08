@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_business_stat" default="compile.module.business_stat">
+  <dirname property="module.business_stat.basedir" file="${ant.file.module_business_stat}"/>
+  
+  <property name="module.jdk.home.business_stat" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.business_stat" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.business_stat" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.business_stat" value="${compiler.args}"/>
+  
+  <property name="business_stat.output.dir" value="${module.business_stat.basedir}/out/production/business_stat"/>
+  <property name="business_stat.testoutput.dir" value="${module.business_stat.basedir}/out/test/business_stat"/>
+  
+  <path id="business_stat.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="business_stat.module.production.classpath">
+    <path refid="${module.jdk.classpath.business_stat}"/>
+    <path refid="library.com.jcraft:jsch:0.1.50.classpath"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="business_stat.runtime.production.module.classpath">
+    <pathelement location="${business_stat.output.dir}"/>
+    <path refid="library.com.jcraft:jsch:0.1.50.classpath"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="business_stat.module.classpath">
+    <path refid="${module.jdk.classpath.business_stat}"/>
+    <pathelement location="${business_stat.output.dir}"/>
+    <path refid="library.com.jcraft:jsch:0.1.50.classpath"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="business_stat.runtime.module.classpath">
+    <pathelement location="${business_stat.testoutput.dir}"/>
+    <pathelement location="${business_stat.output.dir}"/>
+    <path refid="library.com.jcraft:jsch:0.1.50.classpath"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.business_stat">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.business_stat">
+    <patternset refid="excluded.from.module.business_stat"/>
+  </patternset>
+  
+  <path id="business_stat.module.sourcepath">
+    <dirset dir="${module.business_stat.basedir}">
+      <include name="src"/>
+      <include name="src/Resources"/>
+      <include name="src/Resources/localization"/>
+    </dirset>
+  </path>
+  
+  <path id="business_stat.module.test.sourcepath">
+    <dirset dir="${module.business_stat.basedir}">
+      <include name="src/tests"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.business_stat" depends="compile.module.business_stat.production,compile.module.business_stat.tests" description="Compile module business_stat"/>
+  
+  <target name="compile.module.business_stat.production" depends="register.custom.compilers" description="Compile module business_stat; production classes">
+    <mkdir dir="${business_stat.output.dir}"/>
+    <javac2 destdir="${business_stat.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.business_stat}/javac">
+      <compilerarg line="${compiler.args.business_stat}"/>
+      <bootclasspath refid="business_stat.module.bootclasspath"/>
+      <classpath refid="business_stat.module.production.classpath"/>
+      <src refid="business_stat.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.business_stat"/>
+    </javac2>
+    
+    <copy todir="${business_stat.output.dir}">
+      <fileset dir="${module.business_stat.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.business_stat.basedir}/src/Resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.business_stat.basedir}/src/Resources/localization">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.business_stat.tests" depends="register.custom.compilers,compile.module.business_stat.production" description="compile module business_stat; test classes" unless="skip.tests">
+    <mkdir dir="${business_stat.testoutput.dir}"/>
+    <javac2 destdir="${business_stat.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.business_stat}/javac">
+      <compilerarg line="${compiler.args.business_stat}"/>
+      <bootclasspath refid="business_stat.module.bootclasspath"/>
+      <classpath refid="business_stat.module.classpath"/>
+      <src refid="business_stat.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.business_stat"/>
+    </javac2>
+    
+    <copy todir="${business_stat.testoutput.dir}">
+      <fileset dir="${module.business_stat.basedir}/src/tests">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.business_stat" description="cleanup module">
+    <delete dir="${business_stat.output.dir}"/>
+    <delete dir="${business_stat.testoutput.dir}"/>
+  </target>
+</project>

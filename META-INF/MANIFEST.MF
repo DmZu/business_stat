@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: C:\Users\d.zhukov\business_stat\lib\jsch-0.1.50.jar;
+Main-Class: gui.Main
+

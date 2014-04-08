@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<center><WebView fx:id="web_viewer" prefHeight="226.0" prefWidth="330.0" BorderPane.alignment="CENTER" />
+</center>
+<bottom><Label text="%main_title" BorderPane.alignment="CENTER" />
+</bottom>
+<top><Pane prefHeight="125.0" prefWidth="660.0" BorderPane.alignment="CENTER">
+<children><Button fx:id="get_report_action_but" layoutX="494.0" layoutY="9.0" mnemonicParsing="false" onAction="#GetReportButtonAction" prefHeight="78.0" prefWidth="158.0" text="%but_get_report">
+<font>
+<Font name="System Bold" size="12.0" />
+</font></Button><ComboBox fx:id="connect_comboBox" layoutX="14.0" layoutY="14.0" onAction="#ConnectStringChange" prefHeight="25.0" prefWidth="417.0" /><DatePicker fx:id="end_data" layoutX="14.0" layoutY="81.0" onAction="#EndDatePickerAction" prefHeight="25.0" prefWidth="136.0" promptText="%but_end_date" /><DatePicker fx:id="begin_data" layoutX="14.0" layoutY="48.0" onAction="#BeginDatePickerAction" prefHeight="25.0" prefWidth="136.0" promptText="%but_begin_date" /><Button fx:id="print_button" layoutX="494.0" layoutY="94.0" mnemonicParsing="false" onAction="#PrintReport" prefHeight="25.0" prefWidth="159.0" text="%but_print" BorderPane.alignment="CENTER" />
+</children></Pane>
+</top></BorderPane>
