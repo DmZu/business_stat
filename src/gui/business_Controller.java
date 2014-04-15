@@ -6,10 +6,12 @@ import javafx.print.PrinterJob;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.web.WebView;
 import project.Adapter_to_config;
 import project.Adapter_to_log;
+import sun.security.util.Resources;
 
 import java.nio.file.Paths;
 import java.text.ParseException;
@@ -17,6 +19,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 public class business_Controller extends VBox {
 
@@ -28,9 +31,13 @@ public class business_Controller extends VBox {
 
     @FXML private ComboBox connect_comboBox;
 
+    @FXML private ComboBox lang_combobox;
+
     @FXML private DatePicker begin_data;
 
     @FXML private DatePicker end_data;
+
+    @FXML private BorderPane main_border_pain;
 
 
 
@@ -49,6 +56,16 @@ public class business_Controller extends VBox {
 
         cld.setTime(Adapter_to_config.getInstance().GetEndDate());
         end_data.setValue(LocalDate.ofYearDay(cld.get(Calendar.YEAR), cld.get(Calendar.DAY_OF_YEAR)));
+
+        //main_border_pain.set
+
+        lang_combobox.getItems().add("en");
+        lang_combobox.getItems().add("ru");
+
+        if(Adapter_to_config.getInstance().GetLocale() == Locale.ENGLISH)
+            lang_combobox.getSelectionModel().select(0);
+        else
+            lang_combobox.getSelectionModel().select(1);
 
     }
 
@@ -83,7 +100,16 @@ public class business_Controller extends VBox {
     @FXML private void ConnectStringChange(ActionEvent event) {
 
         Adapter_to_config.getInstance().SetActiveConnect(connect_comboBox.getValue().toString());
-        Adapter_to_log.getInstance().ReConnect();
+
+
+        //if(Adapter_to_log.getInstance().IsConnected())
+        Adapter_to_log.getInstance().Connect();
+
+    }
+
+    @FXML private void LangChange(ActionEvent event) {
+
+        Adapter_to_config.getInstance().SetLocale(lang_combobox.getValue().toString());
 
     }
 
@@ -118,7 +144,6 @@ public class business_Controller extends VBox {
         web_viewer.getEngine().print(pjob);
 
         pjob.endJob();
-
         */
 
 

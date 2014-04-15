@@ -3,8 +3,10 @@ package project;
 import project.log.HTMLGenerator;
 import project.log.Log_reader;
 import project.types.record.Log_record;
+import project.types.record.params_level.Ink_Calculator;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,12 +19,13 @@ import java.util.ResourceBundle;
 public class Adapter_to_log {
     private static Adapter_to_log ourInstance = new Adapter_to_log();
 
+    private String conected_to = "";
 
     private ResourceBundle text = ResourceBundle.getBundle("Resources.localization.lang", Adapter_to_config.getInstance().GetLocale());
 
     public static Adapter_to_log getInstance() {
 
-        ourInstance.Connect();
+        //ourInstance.Connect();
 
         return ourInstance;
     }
@@ -37,9 +40,12 @@ public class Adapter_to_log {
 
     private List<Log_record> log_list = new ArrayList<Log_record>();
 
-    private int Connect()
+    public int Connect()
     {
         System.out.println(Adapter_to_config.getInstance().GetActiveConnect());
+
+        if(ourInstance.log_reader != null && ourInstance.log_reader.IsConnected() && !conected_to.equals(Adapter_to_config.getInstance().GetActiveConnect()))
+            Disconnect();
 
         if(ourInstance.log_reader == null || !ourInstance.log_reader.IsConnected())
             log_reader = new Log_reader(
@@ -48,21 +54,44 @@ public class Adapter_to_log {
                     Adapter_to_config.getInstance().GetActiveConnect().split("<div>")[3]
             );
 
+        if(ourInstance.log_reader != null && ourInstance.log_reader.IsConnected())
+            conected_to = Adapter_to_config.getInstance().GetActiveConnect();
+        else
+            conected_to = "";
+
         return 0;
     }
 
+    /*
     public int ReConnect()
     {
-        if(ourInstance.log_reader != null && ourInstance.log_reader.IsConnected())
-            log_reader.Disconnect();
+        System.out.println("1111111");
+        Disconnect();
+        System.out.println("1111111");
 
-        log_reader = new Log_reader(
-                Adapter_to_config.getInstance().GetActiveConnect().split("<div>")[1],
-                Adapter_to_config.getInstance().GetActiveConnect().split("<div>")[2],
-                Adapter_to_config.getInstance().GetActiveConnect().split("<div>")[3]
-        );
+        return Connect();
+    }
+    */
+
+    public int Disconnect()
+    {
+        if(ourInstance.log_reader != null && ourInstance.log_reader.IsConnected())
+        {
+            log_reader.Disconnect();
+            log_reader = null;
+        }
+
         return 0;
     }
+
+    /*
+    public boolean IsConnected()
+    {
+        if(ourInstance.log_reader == null || !ourInstance.log_reader.IsConnected())
+            return false;
+        return true;
+    }
+    */
 
     public int ReadLog(Date begin_date, Date end_date)
     {
@@ -79,12 +108,24 @@ public class Adapter_to_log {
         return 0;
     }
 
+
+
     private int GenerateRepot()
     {
         //String str = "" + GetHead();
 
         try {
-            FileWriter fw = new FileWriter(Adapter_to_config.getInstance().GetReportFileName());
+
+
+            //System.setProperty("file.encoding", "UTF-8");
+
+            //Charset.
+
+            //FileWriter fw = new FileWriter(Adapter_to_config.getInstance().GetReportFileName());
+
+            OutputStreamWriter fw = new OutputStreamWriter(new FileOutputStream(Adapter_to_config.getInstance().GetReportFileName()), "UTF-8");
+
+
 
             //Writer writer = new OutputStreamWriter()
 
@@ -107,6 +148,8 @@ public class Adapter_to_log {
             double sizeX = 0, sizeY = 0;
 
             String user_name = "" , file_name = "";
+
+            Ink_Calculator ink_calculator = new Ink_Calculator(null);
 
 
             for(int i = 0; i < log_list.size(); i++)
@@ -137,16 +180,16 @@ public class Adapter_to_log {
 
                         is_print_start = true;
 
+                        ink_calculator = new Ink_Calculator(lr.GetParams());
+
                         break;
 
                     case print_job_done:
                         end_print = lr.GetDate();
 
-                        fw.write(MessageAboutOnePrint(begin_print, end_print, 0, sizeX, sizeY, user_name, file_name));
+                        fw.write(MessageAboutOnePrint(begin_print, end_print, 0, sizeX, sizeY, user_name, file_name, ink_calculator.CalcInkRashod(lr.GetParams())));
 
                         is_print_start = false;
-
-
 
                         break;
 
@@ -154,7 +197,7 @@ public class Adapter_to_log {
 
                         is_print_start = false;
                         end_print = lr.GetDate();
-                        fw.write(MessageAboutOnePrint(begin_print, end_print, 1, sizeX, sizeY, user_name, file_name));
+                        fw.write(MessageAboutOnePrint(begin_print, end_print, 1, sizeX, sizeY, user_name, file_name, ""));
 
                         break;
 
@@ -175,7 +218,7 @@ public class Adapter_to_log {
 
             if(is_print_start)
             {
-                fw.write(MessageAboutOnePrint(begin_print, begin_print, 2, sizeX, sizeY, user_name, file_name));
+                fw.write(MessageAboutOnePrint(begin_print, begin_print, 2, sizeX, sizeY, user_name, file_name, ""));
                 is_print_start = false;
             }
 
@@ -190,7 +233,7 @@ public class Adapter_to_log {
         return 0;
     }
 
-    private String MessageAboutOnePrint(Date begin_date, Date end_date, int resault_ , double sizeX , double sizeY , String user_name, String file_name)
+    private String MessageAboutOnePrint(Date begin_date, Date end_date, int result_ , double sizeX , double sizeY , String user_name, String file_name, String rashod_ink)
     {
         SimpleDateFormat d_format = new SimpleDateFormat("yyyy.MM.dd  HH:mm", Adapter_to_config.getInstance().GetLocale());
 
@@ -205,26 +248,27 @@ public class Adapter_to_log {
 
 
 
-        String resault_text = "";
+        String result_text = "";
 
-        if(resault_ == 0)
-            resault_text += text.getString("Print_done");
-        if(resault_ == 1)
-            resault_text += text.getString("Print_abort");
-        if(resault_ == 2)
-            resault_text += text.getString("Print_resault_unknown");
+        if(result_ == 0)
+        {
+            result_text += text.getString("Print_done");
+            result_text += "\n" + text.getString("SpentInk") + ":\n" + rashod_ink;
+        }
+        if(result_ == 1)
+            result_text += text.getString("Print_abort");
+        if(result_ == 2)
+            result_text += text.getString("Print_resault_unknown");
 
 
 
-        return HTMLGenerator.GetTableRow(annotation_text, params_text, resault_text);
+        return HTMLGenerator.GetTableRow(annotation_text, params_text, result_text);
     }
 
     private int AddToLogList(List<Log_record> l_list)
     {
         for(Log_record lr : l_list)
         {
-
-
             for(int i = 0; i < log_list.size(); i++)
             {
                 if(lr.equals(log_list.get(i)))
@@ -249,5 +293,6 @@ public class Adapter_to_log {
 
         return 0;
     }
+
 
 }

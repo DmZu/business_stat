@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><Arc fill="#1fd3ff47" layoutX="100.0" layoutY="209.0" length="270.0" radiusX="100.0" radiusY="100.0" startAngle="-0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" type="ROUND" /><Label layoutX="300.0048828125" layoutY="91.5" text="Label" />
+</children></Pane>

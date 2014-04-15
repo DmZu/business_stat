@@ -70,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Adapter_to_log.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Adapter_to_log.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/project/Adapter_to_log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="243" column="84" selection-start="6843" selection-end="6843" vertical-scroll-proportion="-37.153847" vertical-offset="3012" max-vertical-offset="4250">
+            <state line="182" column="75" selection-start="4634" selection-end="4634" vertical-scroll-proportion="0.59736454" vertical-offset="2414" max-vertical-offset="4896">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="business_Controller.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="77" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="2006">
+            <state line="109" column="33" selection-start="3355" selection-end="3365" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2380">
               <folding />
             </state>
           </provider>
@@ -91,72 +91,25 @@
       <file leaf-file-name="Adapter_to_config.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Adapter_to_config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="40" selection-start="3457" selection-end="3457" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3077">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#1901#1909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/log/HTMLGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="67" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1054">
+            <state line="44" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="access_level.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/types/access_level.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="54" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="65" column="87" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record_ink.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/record_ink.java">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InkMass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/InkMass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="53" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ink_Calculator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/Ink_Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="36" selection-start="615" selection-end="615" vertical-scroll-proportion="0.8555195" vertical-offset="0" max-vertical-offset="731">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#209#218#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lang_ru.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/localization/lang_ru.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="336" selection-end="349" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="391">
+            <state line="2" column="21" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -198,20 +151,22 @@
         <option value="$PROJECT_DIR$/src/tests/rec_param_test.java" />
         <option value="$PROJECT_DIR$/src/Resources/localization/lang_en.properties" />
         <option value="$PROJECT_DIR$/src/project/types/access_level.java" />
-        <option value="$PROJECT_DIR$/src/gui/Main.java" />
         <option value="$PROJECT_DIR$/src/project/types/Log_record.java" />
-        <option value="$PROJECT_DIR$/src/project/log/Log_reader.java" />
-        <option value="$PROJECT_DIR$/src/project/types/record/Log_record.java" />
         <option value="$PROJECT_DIR$/src/project/types/record/params_level/record_name.java" />
-        <option value="$PROJECT_DIR$/src/gui/business_Controller.java" />
-        <option value="$PROJECT_DIR$/src/project/Adapter_to_config.java" />
-        <option value="$PROJECT_DIR$/src/project/log/HTMLGenerator.java" />
         <option value="$PROJECT_DIR$/src/project/types/record/record_ink.java" />
-        <option value="$PROJECT_DIR$/src/project/types/record/params_level/record_ink.java" />
-        <option value="$PROJECT_DIR$/src/Resources/localization/lang_ru.properties" />
-        <option value="$PROJECT_DIR$/src/project/Adapter_to_log.java" />
+        <option value="$PROJECT_DIR$/src/project/types/record/Log_record.java" />
         <option value="$PROJECT_DIR$/src/project/types/record/params_level/InkMass.java" />
         <option value="$PROJECT_DIR$/src/project/types/record/params_level/Ink_Calculator.java" />
+        <option value="$PROJECT_DIR$/src/project/types/record/params_level/record_ink.java" />
+        <option value="$PROJECT_DIR$/src/gui/business_gui.fxml" />
+        <option value="$PROJECT_DIR$/src/project/log/WaitMessage.java" />
+        <option value="$PROJECT_DIR$/src/project/log/Log_reader.java" />
+        <option value="$PROJECT_DIR$/src/project/log/HTMLGenerator.java" />
+        <option value="$PROJECT_DIR$/src/Resources/localization/lang_ru.properties" />
+        <option value="$PROJECT_DIR$/src/gui/business_Controller.java" />
+        <option value="$PROJECT_DIR$/src/project/Adapter_to_config.java" />
+        <option value="$PROJECT_DIR$/src/gui/Main.java" />
+        <option value="$PROJECT_DIR$/src/project/Adapter_to_log.java" />
       </list>
     </option>
   </component>
@@ -274,97 +229,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Resources/localization">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business_stat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Resources/localization">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -464,8 +328,26 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_dir" />
+              <option name="myItemId" value="business_stat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business_stat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,18 +527,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Resources/localization">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="business_stat">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Resources/localization">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -676,7 +635,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="File.Encoding" />
@@ -782,20 +741,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -826,17 +782,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -980,10 +939,9 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32421052" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3444564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25368422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34421054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1001,6 +959,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1026,29 +985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/business_stat.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="564" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="493">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
@@ -1062,18 +998,14 @@
     <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,18 +1022,14 @@
     <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="493">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,18 +1097,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/business_gui.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="193" selection-start="129" selection-end="129" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/business_stat.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business_stat.xml">
@@ -1192,23 +1111,12 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="948" column="19" selection-start="39969" selection-end="39969" vertical-scroll-proportion="0.33333334" vertical-offset="15196" max-vertical-offset="22882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="948" column="19" selection-start="39969" selection-end="39969" vertical-scroll-proportion="0.33333334" vertical-offset="15196" max-vertical-offset="22882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/enums_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/types/record/record_type.java">
@@ -1232,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="49" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/RecParametr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="67" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1173">
@@ -1251,28 +1152,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/rec_param_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="183" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="33" column="183" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/record_name.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="51" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/types/record/Log_record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="23" selection-start="3426" selection-end="3426" vertical-scroll-proportion="0.0" vertical-offset="2201" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/log/Log_reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="12" selection-start="1279" selection-end="1279" vertical-scroll-proportion="1.6006494" vertical-offset="0" max-vertical-offset="2227">
           <folding />
         </state>
       </provider>
@@ -1286,99 +1171,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="115" selection-start="724" selection-end="724" vertical-scroll-proportion="-7.6538463" vertical-offset="158" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="21" column="115" selection-start="724" selection-end="724" vertical-scroll-proportion="-7.6538463" vertical-offset="158" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/com/sun/glass/ui/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="0" selection-start="12904" selection-end="12904" vertical-scroll-proportion="0.8308458" vertical-offset="3783" max-vertical-offset="4386">
-          <folding />
+        <state line="253" column="0" selection-start="12904" selection-end="12904" vertical-scroll-proportion="0.8308458" vertical-offset="3783" max-vertical-offset="4386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/Ink_Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="52" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#209#218#0" expanded="false" />
+            <element signature="e#651#660#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/InkMass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="77" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="2006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/localization/lang_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4314721" vertical-offset="0" max-vertical-offset="591">
+        <state line="8" column="32" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/types/access_level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="16" column="54" selection-start="211" selection-end="211" vertical-scroll-proportion="0.44155845" vertical-offset="0" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/localization/lang_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/javax/swing/JOptionPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="336" selection-end="349" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="391">
+        <state line="633" column="23" selection-start="26217" selection-end="26217" vertical-scroll-proportion="0.33283582" vertical-offset="9637" max-vertical-offset="42857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/record_ink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="663">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/types/record/Log_record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="4" selection-start="3546" selection-end="3546" vertical-scroll-proportion="2.8916545" vertical-offset="524" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/log/WaitMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="833">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/log/Log_reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="9" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2584">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/log/HTMLGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="67" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1054">
+        <state line="15" column="112" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/localization/lang_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="484" selection-end="497" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/business_gui.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/localization/ru_flag.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/localization/lang_en.properties">
+      <provider editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="33" selection-start="3355" selection-end="3365" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="87" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Adapter_to_config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="40" selection-start="3457" selection-end="3457" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3077">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#1901#1909#0" expanded="true" />
-          </folding>
+        <state line="44" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="2907">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Adapter_to_log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="84" selection-start="6843" selection-end="6843" vertical-scroll-proportion="-37.153847" vertical-offset="3012" max-vertical-offset="4250">
+        <state line="182" column="75" selection-start="4634" selection-end="4634" vertical-scroll-proportion="0.59736454" vertical-offset="2414" max-vertical-offset="4896">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/record_ink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/InkMass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/types/record/params_level/Ink_Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="36" selection-start="615" selection-end="615" vertical-scroll-proportion="0.8555195" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#209#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,8 +1322,8 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
               <type id="library" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>JavaFXApp</last-edited>
@@ -1398,6 +1331,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

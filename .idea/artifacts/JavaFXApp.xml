@@ -8,7 +8,7 @@
         <option name="description" value="" />
         <option name="htmlParamFile" value="" />
         <option name="keystore" value="" />
-        <option name="nativeBundle" value="exe" />
+        <option name="nativeBundle" value="image" />
         <option name="paramFile" value="" />
         <option name="title" value="" />
         <option name="vendor" value="" />

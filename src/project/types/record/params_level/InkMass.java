@@ -5,17 +5,21 @@ package project.types.record.params_level;
  */
 public class InkMass {
 
-    record_ink ink_color = record_ink.Unknown;
+    private record_ink ink_color = record_ink.Unknown;
 
-    int milligrams = 0;
+    private double milligrams = 0;
 
     public InkMass(RecParametr ink_param)
     {
         ink_color = record_ink.GetByName(ink_param.GetName());
-        milligrams = Integer.getInteger(ink_param.GetValue());
+        try
+        {
+            milligrams = Double.parseDouble(ink_param.GetValue());
+        }
+        catch (NumberFormatException e) { }
     }
 
-    public InkMass(record_ink color, int milligrams_)
+    public InkMass(record_ink color, double milligrams_)
     {
         ink_color = color;
         milligrams = milligrams_;
@@ -26,7 +30,7 @@ public class InkMass {
         return ink_color;
     }
 
-    public int GetMilligrams()
+    public double GetMilligrams()
     {
         return milligrams;
     }

@@ -42,7 +42,7 @@ public class Adapter_to_config {
         }
     }
 
-    private void Save_config()
+    public void Save_config()
     {
         try {
             props.store(new FileOutputStream("config.ini"), null);
@@ -110,11 +110,12 @@ public class Adapter_to_config {
 
     public String GetReportFileName()
     {
+        /*
         if(GetLocale() == Locale.ENGLISH)
             SetLocale("ru");
         else
             SetLocale("en");
-
+        */
         Save_config();
 
         return "report.html";

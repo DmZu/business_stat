@@ -13,6 +13,10 @@ public enum record_ink {
 
     inkK,
 
+    inkLc,
+
+    inkLm,
+
     Unknown;
 
 
@@ -25,4 +29,5 @@ public enum record_ink {
 
         return record_ink.Unknown;
     }
+
 }

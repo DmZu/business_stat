@@ -148,12 +148,12 @@ public class Log_record {
     {
         return name;
     }
-    /*
+
     public List<RecParametr> GetParams()
     {
         return params;
     }
-    */
+
     public String GetParamValue(String param_name)
     {
         for(RecParametr rp : params)

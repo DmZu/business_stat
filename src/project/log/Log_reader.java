@@ -1,9 +1,20 @@
 package project.log;
 
 import com.jcraft.jsch.*;
+import com.sun.deploy.uitoolkit.impl.fx.ui.FXMessageDialog;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBoxBuilder;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 import project.types.record.Log_record;
 import project.types.access_level;
 
+import javax.print.attribute.standard.DialogTypeSelection;
+import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -39,6 +50,11 @@ public class Log_reader {
 
     public Log_reader(String ip, String user_name, String password)
     {
+        //JOptionPane.showMessageDialog(null, "hello", "test title", JOptionPane.NO_OPTION);
+
+        WaitMessage.getInstance().Show("Please, wait...");
+
+        //JOptionPane.showInternalMessageDialog();
 
         is_connected = false;
 
@@ -65,9 +81,7 @@ public class Log_reader {
             e.printStackTrace();
         }
 
-
-
-
+        WaitMessage.getInstance().Close();
 
     }
 

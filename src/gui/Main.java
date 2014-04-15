@@ -9,7 +9,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import project.Adapter_to_config;
+import project.Adapter_to_log;
 
 
 import java.io.IOException;
@@ -63,8 +65,21 @@ public class Main extends Application {
         root.getChildren().add(HBoxBuilder.create().spacing(10).style("-fx-background-color: gray").padding(new Insets(5)).children(btnEN, btnRU).build());
         */
 
+
+
         root.getChildren().add(new StackPane());
-        primaryStage.setScene(new Scene(root, 660, 677));
+
+        primaryStage.setScene(new Scene(root, 680, 420));
+
+
+        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent windowEvent) {
+                Adapter_to_log.getInstance().Disconnect();
+                Adapter_to_config.getInstance().Save_config();
+            }
+        });
+
         primaryStage.show();
 
         loadView(Adapter_to_config.getInstance().GetLocale());
@@ -78,16 +93,18 @@ public class Main extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
 
+
             fxmlLoader.setResources(ResourceBundle.getBundle("Resources.localization.lang", local));
 
             URL url_ = this.getClass().getResource("business_gui.fxml");
 
             //FXMLLoader fxl = new FXMLLoader(url_);
 
-            business_Controller cntr = new business_Controller();
+            //business_Controller cntr = new business_Controller();
 
             //fxmlLoader.setRoot(cntr);
-            fxmlLoader.setController(cntr);
+
+            //fxmlLoader.setController(cntr);
 
             Pane pane = (BorderPane) fxmlLoader.load(url_.openStream());
             // replace the content
@@ -101,10 +118,11 @@ public class Main extends Application {
 
 
 
-            stage.setHeight(pane.getHeight());
-            stage.setWidth(pane.getWidth());
 
-            cntr.OnLoad();
+            //stage.setHeight(800);
+            //stage.setWidth(800);
+
+            ((business_Controller)fxmlLoader.getController()).OnLoad();
 
         } catch (IOException ex) {
             ex.printStackTrace();
