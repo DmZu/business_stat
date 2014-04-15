@@ -11,7 +11,33 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXApp.jar" size="293692" download="eager" />
+    <jar href="JavaFXApp.jar" size="21980048" download="eager" />
+    <jar href="bundles/JavaFXApp/app/JavaFXApp.jar" size="293692" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/charsets.jar" size="3086196" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/deploy.jar" size="4588523" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/access-bridge-64.jar" size="186846" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/cldrdata.jar" size="3860522" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/dnsns.jar" size="8286" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/jaccess.jar" size="44993" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/jfxrt.jar" size="17941174" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/localedata.jar" size="2247045" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/nashorn.jar" size="1579870" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/sunec.jar" size="39793" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/sunjce_provider.jar" size="277781" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/sunmscapi.jar" size="32355" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/sunpkcs11.jar" size="247688" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/ext/zipfs.jar" size="68832" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/javaws.jar" size="895522" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/jce.jar" size="112397" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/jfr.jar" size="508971" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/jfxswt.jar" size="41298" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/jsse.jar" size="615483" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/management-agent.jar" size="381" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/plugin.jar" size="1928849" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/resources.jar" size="3488942" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/rt.jar" size="62653574" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/security/US_export_policy.jar" size="3026" download="eager" />
+    <jar href="bundles/JavaFXApp/runtime/jre/lib/security/local_policy.jar" size="3527" download="eager" />
   </resources>
   <applet-desc  width="600" height="400" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApp" >
     <param name="requiredFXVersion" value="2.2+"/>
