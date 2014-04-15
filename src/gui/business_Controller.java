@@ -121,6 +121,7 @@ public class business_Controller extends VBox {
             job.endJob();
         }
 
+
     }
 
     @FXML private void GetReportButtonAction(ActionEvent event) {

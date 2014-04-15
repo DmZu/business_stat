@@ -82,7 +82,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="4063">
+            <state line="6" column="4" selection-start="60" selection-end="60" vertical-scroll-proportion="0.16693944" vertical-offset="0" max-vertical-offset="4097">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="business_Controller.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="33" selection-start="3355" selection-end="3365" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2380">
+            <state line="123" column="8" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2397">
               <folding />
             </state>
           </provider>
@@ -172,10 +172,10 @@
         <option value="$PROJECT_DIR$/src/project/log/Log_reader.java" />
         <option value="$PROJECT_DIR$/src/project/log/HTMLGenerator.java" />
         <option value="$PROJECT_DIR$/src/Resources/localization/lang_ru.properties" />
-        <option value="$PROJECT_DIR$/src/gui/business_Controller.java" />
         <option value="$PROJECT_DIR$/src/project/Adapter_to_config.java" />
         <option value="$PROJECT_DIR$/src/gui/Main.java" />
         <option value="$PROJECT_DIR$/src/project/Adapter_to_log.java" />
+        <option value="$PROJECT_DIR$/src/gui/business_Controller.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -318,6 +318,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business_stat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business_stat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1097,13 +1115,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="33" selection-start="3355" selection-end="3365" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="87" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2074">
@@ -1132,9 +1143,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/business_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="8" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="4063">
+        <state line="6" column="4" selection-start="60" selection-end="60" vertical-scroll-proportion="0.16693944" vertical-offset="0" max-vertical-offset="4097">
           <folding />
         </state>
       </provider>
